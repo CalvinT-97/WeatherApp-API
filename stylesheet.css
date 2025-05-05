@@ -1,0 +1,59 @@
+html{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+  
+.container {
+    height: 85vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2vh;
+}
+  
+input, button {
+    border-radius: 5vh;
+    height: 5vh;
+    width: 30vw;
+    font-size: 2vh;
+}
+
+input, text{
+    width: 75vw;
+    height: 7vh;
+    text-align: center;
+    font-size: 4vh;
+}
+  
+.header{
+    height: 15vh;
+    background: black;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultContainer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-top: 1vh;
+    background-image: url("cloudysky.jpg");
+    text-align: center;
+}
